@@ -2512,4 +2512,4 @@ const getCountryData = (countryCode, countryName) => {
       item.Name === countryName
   );
 };
-export default getCountryData;
+module.exports getCountryData;

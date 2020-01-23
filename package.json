@@ -2,18 +2,16 @@
   "name": "250-countries-with-is2-iso3-unicode-name-continent-capital-dial-number-and-currency",
   "version": "1.0.0",
   "description": "Country dial code",
-  "main": "src/index.js",
+  "main": "/src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js localhost 8080"
+    "start": "nodemon /src/index.js"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "express": "^4.14.0",
-    "body-parser": "^1.15.2",
-    "cookie-parser": "^1.4.3"
-  },
-  "engines": {
-    "node": "8.11.2"
+  "dependencies": {
+    "nodemon": "^1.0.2",
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.3",
+    "express-session": "1.16.2"
   },
   "keywords": ["dialcode", "currency", "capital", "currency", "iso2"]
 }

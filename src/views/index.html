@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Backend Challenges | Free Code Camp</title>
+    <title>Country Dialing Codes</title>
     <link
       rel="shortcut icon"
       href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico"
@@ -12,13 +12,51 @@
       rel="stylesheet"
       type="text/css"
     />
-    <link href="/public/style.css" rel="stylesheet" type="text/css" />
+    <style>
+      /* styles */
+      /* called by your view template */
+
+      * {
+        box-sizing: border-box;
+        font-family: "Lato", sans-serif;
+        margin: 0;
+      }
+
+      .body {
+        margin: 10px 50px;
+        min-height: 75%;
+        margin: 0;
+        height: 100vh;
+      }
+
+      .container {
+        height: 365px;
+        background-color: rgba(211, 211, 211, 0.521);
+        display: flex;
+        border-bottom: 3px solid #ffeb38;
+      }
+
+      form {
+        margin-block-end: 0em;
+        maring-bottom: -1em;
+        margin: auto;
+      }
+
+      input {
+        width: 350px;
+      }
+    </style>
   </head>
 
   <body>
+    <h1>Get Country Dialing Codes</h1>
+    <h3>Part 1 of Free Code Camp Backend Challenges</h3>
     <div class="container">
-      <h1>Manage Node.js projects and npm packages using package.json</h1>
-      <h3>Part 1 of Free Code Camp Backend Challenges</h3>
+      <form>
+        <label>Enter url</label>
+        <small>url/country name or iso2 code</small>
+        <input type="text" name="url" />
+      </form>
     </div>
   </body>
 </html>
